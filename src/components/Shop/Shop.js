@@ -13,6 +13,7 @@ const Shop = () => {
 	const btnClicked = (product) => {
 		console.log(product.id);
 		const newCart = [...cart, product];
+
 		setCart(newCart);
 	};
 
@@ -29,7 +30,9 @@ const Shop = () => {
 			</div>
 			<div className="cart-container">
 				<h3>Total Bazar</h3>
-				<h3>Id:{cart.length}</h3>
+				{cart.map((item) => (
+					<h1>Item: {item.name}</h1>
+				))}
 			</div>
 		</div>
 	);

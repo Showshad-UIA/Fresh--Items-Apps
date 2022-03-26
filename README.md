@@ -1,6 +1,6 @@
 ## My live Site
 
-(https://app.netlify.com/sites/first-react-app-assignment-8/settings/general)
+(react-shooping-app-assignment-07.netlify.app)
 
 In the project directory, you can run:
 

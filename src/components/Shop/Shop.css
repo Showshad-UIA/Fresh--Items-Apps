@@ -8,13 +8,13 @@
 	gap: 45px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
 	.products-container {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
-@media only screen and (max-width: 425px) {
+@media screen and (min-width: 576px) {
 	.products-container {
-		grid-template-columns: no-repeat(1fr);
+		grid-template-columns: no-repeat(1);
 	}
 }
