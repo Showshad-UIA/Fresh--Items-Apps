@@ -5,6 +5,7 @@ import "./Shop.css";
 const Shop = () => {
 	const [products, setProducts] = useState([]);
 	const [cart, setCart] = useState([]);
+
 	useEffect(() => {
 		fetch("products.json")
 			.then((res) => res.json())
@@ -15,10 +16,10 @@ const Shop = () => {
 
 		setCart(newCart);
 	};
-	const productShow = () => {
-		Math.random(cart);
+	const random = () => {
+		const randomItem = cart[Math.floor(Math.random() * cart.length)];
+		setCart([randomItem]);
 	};
-
 	return (
 		<div className="shop-container">
 			<div className="products-container">
@@ -37,7 +38,7 @@ const Shop = () => {
 						<p>Item: {item.name}</p>
 					))}
 
-					<button className="btn-clear" onClick={productShow}>
+					<button className="btn-clear" onClick={random}>
 						Pick One
 					</button>
 					<button>Choose Again</button>

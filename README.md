@@ -2,7 +2,7 @@
 
 ## My live Site Link
 
-(https://app.netlify.com/sites/react-shooping-app-assignment-07/settings/general)
+(https://react-shooping-app-assignment-08.netlify.app/)
 
 ## Details about application
 
