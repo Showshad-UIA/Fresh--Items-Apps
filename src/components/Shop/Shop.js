@@ -11,10 +11,12 @@ const Shop = () => {
 			.then((data) => setProducts(data));
 	}, []);
 	const btnClicked = (product) => {
-		console.log(product.id);
 		const newCart = [...cart, product];
 
 		setCart(newCart);
+	};
+	const productShow = () => {
+		Math.random(cart);
 	};
 
 	return (
@@ -35,8 +37,10 @@ const Shop = () => {
 						<p>Item: {item.name}</p>
 					))}
 
-					<button className="btn-clear">Clear</button>
-					<button>Choose</button>
+					<button className="btn-clear" onClick={productShow}>
+						Pick One
+					</button>
+					<button>Choose Again</button>
 				</div>
 			</div>
 		</div>

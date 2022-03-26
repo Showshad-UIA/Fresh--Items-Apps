@@ -1,8 +1,12 @@
-## My live Site
+## Fresh & Goods Delivery System
 
-(react-shooping-app-assignment-07.netlify.app)
+## My live Site Link
 
-In the project directory, you can run:
+(https://app.netlify.com/sites/react-shooping-app-assignment-07/settings/general)
+
+## Details about application
+
+Basically this is a very simple and interactive fresh and good delivery system application, where you can get fresh items like- fish, fruits , vegetable and so on . This entire application I have used basic HTML, CSS,js and react. User when choose any item in the cart user can see the item name what they choose.
 
 ## About React
 
