@@ -3,13 +3,46 @@
 	height: 510px;
 	margin-left: 50px;
 	margin-top: 30px;
+	border-radius: 8px;
+	border: 2px solid gray;
+	position: relative;
 }
 .product img {
 	width: 286px;
 	height: 286px;
+	margin: 4px;
+	border-radius: 8px;
 }
 .product-name {
 	font-family: Lato;
 	font-weight: 400, Regular;
 	font-size: 21px;
+}
+.addCart {
+	width: 100%;
+	background: lightgreen;
+	border-radius: 0px 0px 8px 8px;
+	position: absolute;
+	bottom: 0px;
+}
+.addCart:hover {
+	background-color: cornsilk;
+}
+.productDetails {
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+.productDetails p {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+	/*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px) {
+	/*Small smartphones [325px -> 425px]*/
 }
