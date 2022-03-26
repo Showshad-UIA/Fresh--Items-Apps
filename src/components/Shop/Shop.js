@@ -29,10 +29,15 @@ const Shop = () => {
 				))}
 			</div>
 			<div className="cart-container">
-				<h3>Total Bazar</h3>
-				{cart.map((item) => (
-					<h1>Item: {item.name}</h1>
-				))}
+				<div className="cartText">
+					<h4>Total Bazar</h4>
+					{cart.map((item) => (
+						<p>Item: {item.name}</p>
+					))}
+
+					<button className="btn-clear">Clear</button>
+					<button>Choose</button>
+				</div>
 			</div>
 		</div>
 	);

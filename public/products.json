@@ -44,14 +44,14 @@
 	},
 	{
 		"id": "07",
-		"category": "Vegitable",
+		"category": "Vegetable",
 		"name": "Besalla Seeds",
 		"price": 5,
 		"img": "https://s3.ap-south-1.amazonaws.com/diingdong/1597678443_4042019075950691.jpg"
 	},
 	{
 		"id": "08",
-		"category": "Vegitable",
+		"category": "Vegetable",
 		"name": "Red Spinach",
 		"price": 5,
 		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyAdoO7GZ8cTFd20vOy8gxwqKhQccwmiy3xA&usqp=CAU"
@@ -65,14 +65,14 @@
 	},
 	{
 		"id": "10",
-		"category": "Vegitable",
+		"category": "Vegetable",
 		"name": "Cabbage",
 		"price": 437,
 		"img": "https://5.imimg.com/data5/VB/NM/YE/ANDROID-71741363/product-jpeg-500x500.jpg"
 	},
 	{
 		"id": "011",
-		"category": "Vegitable",
+		"category": "Vegetable",
 		"name": "Purple Cabage",
 		"price": 5,
 		"img": "https://img.onmanorama.com/content/dam/mm/en/lifestyle/health/images/2019/1/21/purple-cabbage-c.jpg"
@@ -101,7 +101,7 @@
 	},
 	{
 		"id": "014",
-		"category": "vegitable",
+		"category": "vegetable",
 		"name": "Ladis Finger",
 		"price": 5,
 		"img": "https://im.indiatimes.in/content/2014/Oct/1739119_1437679123.jpg"
@@ -115,24 +115,31 @@
 	},
 	{
 		"id": "016",
-		"category": "vegitable",
-		"name": "Tomato",
+		"category": "Fruits",
+		"name": "Guava",
 		"price": 4,
-		"img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3fb5325716cc4e45a76bac4700ea31dc_9366/Essentials_French_Terry_Tapered_Cuff_Logo_Pants_Black_GK8968_21_model.jpg"
+		"img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/full-frame-shot-of-guava-royalty-free-image-1068569826-1564091945.jpg?crop=1.00xw:0.668xh;0,0.0900xh&resize=480:*"
 	},
 	{
 		"id": "017",
 		"category": "Fruits",
-		"name": "Banana",
+		"name": "Sweet Grap ",
 		"price": 10,
-		"img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d47f8bc94b2c401b9eafad23007fd8c4_9366/Primegreen_Essentials_Warm-Up_Open_Hem_3-Stripes_Track_Pants_Black_H48430_21_model.jpg"
+		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0qjPAotZcfeTC_rZjLzbr3DHx0FDpbOPkpQ&usqp=CAU"
+	},
+	{
+		"id": "077",
+		"category": "Fruits",
+		"name": "Red Grap ",
+		"price": 10,
+		"img": "https://www.homeperch.com/wp-content/uploads/2019/01/Grapefruit.jpg"
 	},
 	{
 		"id": "018",
 		"category": "Fruits",
-		"name": "Mango Stream",
+		"name": "Banana",
 		"price": 5,
-		"img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/64f1ba254925439d88eaad920127d77e_9366/Essentials4Gameday_Pants_Black_HE1800_21_model.jpg"
+		"img": "https://static.libertyprim.com/files/familles/banane-large.jpg?1569271725"
 	},
 	{
 		"id": "01",

@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 
 import Question1 from "./components/Question1/Question1";
 import Question2 from "./components/Question2/Question2";
@@ -14,6 +15,7 @@ function App() {
 			<Question1></Question1>
 			<Question2></Question2>
 			<Question3></Question3>
+			<Footer></Footer>
 		</div>
 	);
 }
